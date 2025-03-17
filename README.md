@@ -21,16 +21,16 @@ on CPUs and GPUs
 
 ## ML Performance
 
-#### Frameworks
+### Frameworks
 
 - [PyTorch 2](https://pytorch.org/assets/pytorch2-2.pdf)
 - [ASPLOS Pytorch 2](https://github.com/pytorch/workshops/blob/master/ASPLOS_2024/README.md)
 - [ThunderKittens](https://github.com/HazyResearch/ThunderKittens/tree/e5cb89f29e1abb9498ebf8bc878015f9699ee846)
 - [triton](https://github.com/triton-lang/triton)
 
-#### Efficient Implementations
+### Efficient Implementations
 
-###### Flash Attention
+#### Flash Attention
 
 The premise of FlashAttention is fairly simple. This includes the main
 papers and some references for the "backbone" ideas. I.e., IO complexity,
@@ -47,10 +47,10 @@ softmax normalization, etc.
 
 ## NVIDIA
 
-#### Architecture
+### Architecture
 
-#### Cuda
+### Cuda
 
-#### PTX
+### PTX
 
 [PTX Docs](https://docs.nvidia.com/cuda/parallel-thread-execution/)
