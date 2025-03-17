@@ -30,7 +30,20 @@ on CPUs and GPUs
 
 #### Efficient Implementations
 
-- 
+###### Flash Attention
+
+The premise of FlashAttention is fairly simple. This includes the main
+papers and some references for the "backbone" ideas. I.e., IO complexity,
+softmax normalization, etc.
+
+- [Data movement is all you need](https://arxiv.org/abs/2007.00072)
+- [The Hardware Lottery](https://arxiv.org/abs/2009.06489)
+- [IO Complexity of sorting and related problems](https://dl.acm.org/doi/10.1145/48529.48535)
+- [Online Softmax Normalizer](https://arxiv.org/abs/1805.02867)
+- [Self-attention does not need $O(n^2)$ memory](https://arxiv.org/abs/2112.05682)
+- [FlashAttention 1](https://arxiv.org/abs/2205.14135)
+- [FlashAttention 2](https://arxiv.org/abs/2307.08691)
+- [FlashAttention 3, for H100. Uses Asynchrony and low precision](https://arxiv.org/abs/2407.08608)
 
 ## NVIDIA
 
