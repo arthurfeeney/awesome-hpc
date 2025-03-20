@@ -2,19 +2,27 @@
 
 A collection of interesting HPC Resources. Not really including papers--there's lots of good info in blog posts and inside documentation, but it's impossible to remember all of the different links. I think it's necessary to maintain a list like this.
 
-## Conferences
+## Conference Proceedings
 
-- [PPoPP 2025](https://ppopp25.sigplan.org/program/program-PPoPP-2025/)
+- [ASPLOS 2025](https://dl.acm.org/doi/proceedings/10.1145/3669940)
+- [ASPLOS 2024](https://dl.acm.org/doi/proceedings/10.1145/3620665)
+- [ICPP 2024](https://icpp2024.org/index.php?option=com_content&view=article&id=6&Itemid=114)
 - [MLSys 2024](https://proceedings.mlsys.org/paper_files/paper/2024)
 - [MLSys 2023](https://mlsys.org/virtual/2023/papers.html?filter=titles)
-- [ICPP 2024](https://icpp2024.org/index.php?option=com_content&view=article&id=6&Itemid=114)
+- [PPoPP 2025](https://ppopp25.sigplan.org/program/program-PPoPP-2025/)
+- [SC 2024](https://dl.acm.org/doi/proceedings/10.5555/3703596)
+
+## Blogs
+
+- [Colfax Research](https://research.colfax-intl.com)
+- [Lei Mao Blog](https://leimao.github.io)
 
 ## Matrix Multiplication and Linear Algebra
 
 References and tools regarding efficient implementation of GEMM and other BLAS-style kernels
 on CPUs and GPUs
 
-- [CUTLASS](https://github.com/NVIDIA/cutlass/tree/main) has good info on fast GEMM.
+- [CUTLASS](https://github.com/NVIDIA/cutlass/tree/main) docs has good general info on fast matmul for GPUs.
 - [BLIS](https://github.com/flame/blis)
 - [Reverse Engineering cuBLAS](https://fabianschuetze.github.io/category/articles.html)
 - [DeepSeek DeepGEMM](https://github.com/deepseek-ai/DeepGEMM)
