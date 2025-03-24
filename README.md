@@ -17,12 +17,16 @@ A collection of interesting HPC Resources. Not really including papers--there's 
 - [Colfax Research](https://research.colfax-intl.com)
 - [Lei Mao Blog](https://leimao.github.io)
 
+## Lectures
+
+- [PMPP Recordings](https://www.youtube.com/@pmpp-book)
+
 ## Matrix Multiplication and Linear Algebra
 
 References and tools regarding efficient implementation of GEMM and other BLAS-style kernels
 on CPUs and GPUs
 
-- [CUTLASS](https://github.com/NVIDIA/cutlass/tree/main) docs has good general info on fast matmul for GPUs.
+- [CULASS Efficient GEMM](https://github.com/NVIDIA/cutlass/blob/main/media/docs/efficient_gemm.md)
 - [BLIS](https://github.com/flame/blis)
 - [Reverse Engineering cuBLAS](https://fabianschuetze.github.io/category/articles.html)
 - [DeepSeek DeepGEMM](https://github.com/deepseek-ai/DeepGEMM)
@@ -33,6 +37,7 @@ on CPUs and GPUs
 
 - [PyTorch 2](https://pytorch.org/assets/pytorch2-2.pdf)
 - [ASPLOS Pytorch 2](https://github.com/pytorch/workshops/blob/master/ASPLOS_2024/README.md)
+- [CUTLASS](https://github.com/NVIDIA/cutlass/tree/main)
 - [ThunderKittens](https://github.com/HazyResearch/ThunderKittens/tree/e5cb89f29e1abb9498ebf8bc878015f9699ee846)
 - [triton](https://github.com/triton-lang/triton)
 
@@ -55,10 +60,14 @@ softmax normalization, etc.
 
 ## NVIDIA
 
+### Performance
+
+- [GTC 2010 Lower Occupancy performance](https://www.nvidia.com/content/gtc-2010/pdfs/2238_gtc2010.pdf) Very old GTC talk about getting higher performance with lower occupancy. Compute bound applications (like GEMM) do not need high occupancy to hit peak performance.
+
 ### Architecture
 
 ### Cuda
 
 ### PTX
 
-[PTX Docs](https://docs.nvidia.com/cuda/parallel-thread-execution/)
+- [PTX Docs](https://docs.nvidia.com/cuda/parallel-thread-execution/)
