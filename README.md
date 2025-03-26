@@ -1,6 +1,15 @@
 # Awesome HPC
 
-A collection of interesting HPC Resources. Not really including papers--there's lots of good info in blog posts and inside documentation, but it's impossible to remember all of the different links. I think it's necessary to maintain a list like this.
+A collection of interesting HPC Resources. Not really including papers--there's 
+lots of good info in blog posts and inside documentation, but it's impossible to remember
+all of the different links. I think it's necessary to maintain a list like this.
+
+This is a mishmash of CPU / GPU / fun hardware / Distributed.   
+
+## Aggregators
+
+- [GPUMode](https://github.com/gpu-mode), community of GPU people (mostly ML.)
+- [HGPU](https://hgpu.org), like arxiv for GPU-related papers.
 
 ## Conference Proceedings
 
@@ -63,6 +72,7 @@ softmax normalization, etc.
 ### Performance
 
 - [GTC 2010 Lower Occupancy performance](https://www.nvidia.com/content/gtc-2010/pdfs/2238_gtc2010.pdf) Very old GTC talk about getting higher performance with lower occupancy. Compute bound applications (like GEMM) do not need high occupancy to hit peak performance.
+- [NSight Compute GPUMode](https://www.youtube.com/watch?v=F_BazucyCMw)
 
 ### Architecture
 
